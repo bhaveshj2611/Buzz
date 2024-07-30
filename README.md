@@ -1,12 +1,12 @@
 
-# Buzz Chat App
+# Buzz - Real Time Chat App
 
-Buzz Chat is a real-time chat application built with Flutter for the frontend and Node.js with Socket.IO for the backend. It allows users to engage in instant messaging with a sleek, modern interface. The app leverages the power of PostgreSQL, a robust open-source relational database, for efficient data storage and retrieval. Prisma, a next-generation ORM, is used to simplify database operations and provide type-safe database access.
+Buzz is a real-time chat application built with Flutter for the frontend and Node.js with Socket.IO for the backend. It allows users to engage in instant messaging with a sleek, modern interface. The app leverages the power of PostgreSQL, a robust open-source relational database, for efficient data storage and retrieval. Prisma, a next-generation ORM, is used to simplify database operations and provide type-safe database access.
 
 ## Tech Stack
 
 - **Frontend**: Flutter
-- **Backend**: Node.js, Express
+- **Backend**: Node.js, Express.js
 - **Real-time Communication**: Socket.IO
 - **Database**: PostgreSQL
 - **ORM**: Prisma
@@ -37,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 git clone https://github.com/bhaveshj2611/Buzz.git
-cd buzz-chat
+cd buzz-chat-app
 ```
 
 2. Set up the backend
@@ -60,11 +60,11 @@ Edit the `.env` file with your PostgreSQL database credentials.
 5. Set up the Flutter app
 
    ```
-   cd ../flutter_app
+   cd ../buzz-chat-app
    flutter pub get
 
 6. Update the backend URL
-Open `lib/config.dart` and update the `backendUrl` to match your server address.
+Open `lib/url.dart` and update the `getBackendUrl()` to match your server address.
 
 7. Run the Flutter app
    ```
@@ -79,6 +79,14 @@ Open `lib/config.dart` and update the `backendUrl` to match your server address.
 4. Press the send button or hit enter to send your message.
 5. You'll see your messages appear on the right side of the screen.
 6. Messages from other users will appear on the left side.
+
+This is a v1 for the app. I plan to introduce several exciting features in upcoming versions:
+
+- User authentication and accounts
+- Private messaging between users
+- Group chat functionality
+- File and image sharing
+- Voice messages
 
 ## Development
 
