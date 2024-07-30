@@ -1,7 +1,7 @@
 
 # Buzz Chat App
 
-Buzz Chat is a real-time chat application built with Flutter for the frontend and Node.js with Socket.IO for the backend. It allows users to engage in instant messaging with a sleek, modern interface.
+Buzz Chat is a real-time chat application built with Flutter for the frontend and Node.js with Socket.IO for the backend. It allows users to engage in instant messaging with a sleek, modern interface. The app leverages the power of PostgreSQL, a robust open-source relational database, for efficient data storage and retrieval. Prisma, a next-generation ORM, is used to simplify database operations and provide type-safe database access.
 
 ## Tech Stack
 
@@ -13,10 +13,12 @@ Buzz Chat is a real-time chat application built with Flutter for the frontend an
 
 ## Features
 
-- Real-time messaging
-- Unique user identification
-- Message persistence
-- Cross-platform support (iOS, Android, Web)
+- Real-time messaging with instant updates
+- Unique user identification for each session
+- Message persistence across sessions using PostgreSQL
+- Cross-platform support (iOS, Android, Web) thanks to Flutter
+- Efficient database operations and type-safe queries with Prisma
+- Scalable backend architecture using Node.js and Express.js
 
 ## Getting Started
 
